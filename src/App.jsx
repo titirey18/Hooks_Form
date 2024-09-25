@@ -39,7 +39,7 @@ const App = () => {
             required: true,
             pattern: {
               value: /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/,
-              message: 'Ingrese un email válido'
+              message: 'Ingrese un email válido❌ '
             }
           })}
         />
